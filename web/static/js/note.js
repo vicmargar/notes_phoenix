@@ -1,6 +1,6 @@
 class Note {
   constructor(options) {
-    // alert('hello from Note')
+    console.log('You are watching a noterrr')
   }
 }
 

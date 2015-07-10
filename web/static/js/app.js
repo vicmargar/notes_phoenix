@@ -8,7 +8,7 @@ import {Socket} from "phoenix"
 // })
 
 let App = {
-  var1: 1
+
 }
 
 export default App

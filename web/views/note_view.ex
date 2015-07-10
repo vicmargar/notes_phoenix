@@ -4,9 +4,12 @@ defmodule NotesPhoenix.NoteView do
   def render("javascript.html", _assigns) do
     """
     <script type='text/javascript'>
+      var List = require('web/static/js/list');
+      var list = new List();
       var Note = require('web/static/js/note');
       var note = new Note();
     </script>
     """ |> safe
   end
+
 end

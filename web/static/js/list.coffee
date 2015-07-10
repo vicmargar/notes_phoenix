@@ -1,5 +1,5 @@
 class List
   constructor: ->
-    alert('This is a List')
+    console.log('This is a List')
 
 module.exports = List
